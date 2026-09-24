@@ -416,7 +416,15 @@
     gap:10px;
     font-size:11.5px;
     color:var(--gray-dim);
-  }
+  }footer a{
+  color:var(--accent);
+  font-weight:700;
+  text-decoration:none;
+}
+
+footer a:hover{
+  text-decoration:underline;
+}
 
   .reveal{ opacity:0; transform:translateY(16px); transition:opacity .6s ease, transform .6s ease; }
   .reveal.in{ opacity:1; transform:none; }
@@ -635,10 +643,22 @@
       </div>
     </div>
 
-    <footer>
-      <span>Matthew Batcheldor · Selected Growth Campaigns</span>
-      <span>Sources: YouTube Studio Analytics, Google &amp; campaign reporting, verified LinkedIn recommendations. Results shown in original campaign context.</span>
-    </footer>
+   <footer>
+  <span>Matthew Batcheldor · Selected Growth Campaigns</span>
+
+  <span>
+    <a href="https://mattbatcheldor.github.io/career-portfolio/"
+       target="_blank"
+       rel="noopener">
+      Selected Work &amp; Case Studies →
+    </a>
+  </span>
+
+  <span>
+    Sources: YouTube Studio Analytics, Google &amp; campaign reporting,
+    verified LinkedIn recommendations. Results shown in original campaign context.
+  </span>
+</footer>
   </section>
 
 </div>
