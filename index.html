@@ -418,6 +418,29 @@
     color:var(--gray-dim);
   }
 
+
+  /* Career portfolio cross-link */
+  .portfolio-link{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    margin:28px 0 8px;
+    padding:13px 20px;
+    border-radius:6px;
+    background:var(--red);
+    color:#fff;
+    font-size:14px;
+    font-weight:700;
+    text-decoration:none;
+    border:1px solid var(--red);
+    transition:background .15s ease,color .15s ease,border-color .15s ease;
+  }
+  .portfolio-link:hover{
+    background:#fff;
+    color:#111;
+    border-color:#fff;
+  }
+
   .reveal{ opacity:0; transform:translateY(16px); transition:opacity .6s ease, transform .6s ease; }
   .reveal.in{ opacity:1; transform:none; }
   @media (prefers-reduced-motion:reduce){ .reveal{opacity:1; transform:none; transition:none;} }
@@ -634,6 +657,8 @@
         <p>Across all three programmes, the same operating pattern repeats: identify an audience truth, build a differentiated proposition, align partners and channels, launch cross&#8209;functionally, and measure acquisition, engagement and retention, then turn the learning into a scalable playbook.</p>
       </div>
     </div>
+
+    <a class="portfolio-link" href="https://mattbatcheldor.github.io/career-portfolio/" target="_blank" rel="noopener">Explore Career Portfolio →</a>
 
     <footer>
       <span>Matthew Batcheldor · Selected Growth Campaigns</span>
